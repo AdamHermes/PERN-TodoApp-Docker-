@@ -1,0 +1,36 @@
+2024-05-21 13:59:27.279 +07 [13728] ERROR:  syntax error at or near "ALTER" at character 59
+2024-05-21 13:59:27.279 +07 [13728] STATEMENT:  ALTER TABLE users
+	ALTER COLUMN username TYPE VARCHAR(255)
+	ALTER TABLE todoALTER COLUMN username TYPE VARCHAR(255);
+2024-05-21 14:00:25.602 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 14:00:25.861 +07 [7504] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.223 s, sync=0.013 s, total=0.259 s; sync files=3, longest=0.010 s, average=0.005 s; distance=5 kB, estimate=126 kB; lsn=0/1AA8A20, redo lsn=0/1AA89E8
+2024-05-21 14:01:32.509 +07 [13728] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-21 14:05:25.876 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 14:05:27.993 +07 [7504] LOG:  checkpoint complete: wrote 20 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.087 s, sync=0.013 s, total=2.118 s; sync files=19, longest=0.002 s, average=0.001 s; distance=78 kB, estimate=121 kB; lsn=0/1ABC470, redo lsn=0/1ABC438
+2024-05-21 14:20:26.013 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 14:20:26.372 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.330 s, sync=0.012 s, total=0.360 s; sync files=4, longest=0.010 s, average=0.003 s; distance=0 kB, estimate=109 kB; lsn=0/1ABC798, redo lsn=0/1ABC760
+2024-05-21 14:20:35.309 +07 [5468] ERROR:  syntax error at or near "SELECT" at character 21
+2024-05-21 14:20:35.309 +07 [5468] STATEMENT:  SELECT * FROM users
+	SELECT * FROM users;
+2024-05-21 14:22:22.100 +07 [5468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-21 15:50:26.528 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 15:50:26.976 +07 [7504] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.419 s, sync=0.014 s, total=0.449 s; sync files=5, longest=0.010 s, average=0.003 s; distance=1 kB, estimate=98 kB; lsn=0/1ABCD38, redo lsn=0/1ABCD00
+2024-05-21 15:57:25.341 +07 [15624] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-21 15:57:25.341 +07 [15624] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-21 15:58:20.927 +07 [15624] ERROR:  syntax error at or near "{" at character 35
+2024-05-21 15:58:20.927 +07 [15624] STATEMENT:  DELETE FROM todo WHERE todo_id in {5,6,7,8,9,10,11,12}
+	DELETE FROM todo WHERE todo_id in {5,6,7,8,9,10,11,12};
+2024-05-21 15:58:22.961 +07 [15624] ERROR:  syntax error at or near "{" at character 35
+2024-05-21 15:58:22.961 +07 [15624] STATEMENT:  DELETE FROM todo WHERE todo_id in {5,6,7,8,9,10,11,12};
+2024-05-21 15:58:36.366 +07 [15624] ERROR:  syntax error at or near "[" at character 35
+2024-05-21 15:58:36.366 +07 [15624] STATEMENT:  DELETE FROM todo WHERE todo_id in [5,6,7,8,9,10,11,12];
+2024-05-21 15:59:06.280 +07 [15624] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-21 15:59:06.280 +07 [15624] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-21 15:59:11.502 +07 [15624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-21 16:00:26.984 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 16:00:27.340 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.329 s, sync=0.013 s, total=0.357 s; sync files=4, longest=0.009 s, average=0.004 s; distance=3 kB, estimate=89 kB; lsn=0/1ABDA40, redo lsn=0/1ABDA08

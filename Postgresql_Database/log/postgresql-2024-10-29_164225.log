@@ -1,0 +1,11 @@
+2024-10-29 16:42:25.117 +07 [7496] LOG:  database system was shut down at 2024-10-29 16:41:47 +07
+2024-10-29 16:47:25.104 +07 [7440] LOG:  checkpoint starting: time
+2024-10-29 16:47:25.143 +07 [7440] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.007 s, total=0.039 s; sync files=2, longest=0.004 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/2DF6800, redo lsn=0/2DF67C8
+2024-10-29 20:54:34.673 +07 [7440] LOG:  checkpoint starting: time
+2024-10-29 20:54:35.797 +07 [7440] LOG:  checkpoint complete: wrote 11 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.100 s, sync=0.013 s, total=1.125 s; sync files=11, longest=0.002 s, average=0.002 s; distance=13 kB, estimate=13 kB; lsn=0/2DF9E20, redo lsn=0/2DF9DE8
+2024-10-29 20:59:34.825 +07 [7440] LOG:  checkpoint starting: time
+2024-10-29 20:59:35.734 +07 [7440] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.875 s, sync=0.012 s, total=0.910 s; sync files=9, longest=0.003 s, average=0.002 s; distance=7 kB, estimate=12 kB; lsn=0/2DFBB48, redo lsn=0/2DFBB10
+2024-10-29 21:09:34.769 +07 [7440] LOG:  checkpoint starting: time
+2024-10-29 21:09:34.903 +07 [7440] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.107 s, sync=0.005 s, total=0.134 s; sync files=2, longest=0.003 s, average=0.003 s; distance=1 kB, estimate=11 kB; lsn=0/2DFC2D8, redo lsn=0/2DFC2A0
+2024-10-29 23:39:35.222 +07 [7440] LOG:  checkpoint starting: time
+2024-10-29 23:39:35.682 +07 [7440] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.440 s, sync=0.007 s, total=0.463 s; sync files=5, longest=0.002 s, average=0.002 s; distance=5 kB, estimate=11 kB; lsn=0/2DFD738, redo lsn=0/2DFD700

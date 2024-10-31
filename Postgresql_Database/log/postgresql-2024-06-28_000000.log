@@ -1,0 +1,82 @@
+2024-06-28 22:09:32.792 +07 [7664] LOG:  checkpoint starting: time
+2024-06-28 22:09:33.803 +07 [7664] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.981 s, sync=0.015 s, total=1.012 s; sync files=10, longest=0.009 s, average=0.002 s; distance=10 kB, estimate=10 kB; lsn=0/1B61AC8, redo lsn=0/1B61A90
+2024-06-28 22:19:32.812 +07 [7664] LOG:  checkpoint starting: time
+2024-06-28 22:19:32.938 +07 [7664] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.111 s, sync=0.002 s, total=0.127 s; sync files=2, longest=0.002 s, average=0.001 s; distance=6 kB, estimate=10 kB; lsn=0/1B63378, redo lsn=0/1B63340
+2024-06-29 00:19:30.876 +07 [26292] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-29 09:31:37.826 +07 [16368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-29 12:34:08.095 +07 [9568] FATAL:  password authentication failed for user "postgress"
+2024-06-29 12:34:08.095 +07 [9568] DETAIL:  Role "postgress" does not exist.
+	Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-06-29 12:34:57.264 +07 [17684] ERROR:  syntax error at or near "CREATE" at character 26
+2024-06-29 12:34:57.264 +07 [17684] STATEMENT:  CREATE DATABASE carsSale
+	CREATE TABLE cars(
+	    car_id SERIAL PRIMARY KEY,
+	    brand VARCHAR (255),
+	    model VARCHAR(255),
+	    body VARCHAR(255),
+	    color VARCHAR(255),
+	    seats INTEGER NOT NULL,
+	    price FLOAT NOT NULL
+	);
+2024-06-29 12:36:13.248 +07 [15220] ERROR:  syntax error at or near "af" at character 24
+2024-06-29 12:36:13.248 +07 [15220] STATEMENT:  SELECT * FROM brand
+	af
+	af;
+2024-06-29 12:36:20.205 +07 [15220] ERROR:  relation "brand" does not exist at character 15
+2024-06-29 12:36:20.205 +07 [15220] STATEMENT:  SELECT * FROM brand;
+2024-06-29 12:39:32.246 +07 [7664] LOG:  checkpoint starting: time
+2024-06-29 12:41:24.640 +07 [7664] LOG:  checkpoint complete: wrote 1020 buffers (6.2%); 1 WAL file(s) added, 0 removed, 0 recycled; write=112.122 s, sync=0.213 s, total=112.395 s; sync files=340, longest=0.010 s, average=0.001 s; distance=4717 kB, estimate=4717 kB; lsn=0/1FFEB60, redo lsn=0/1FFEB28
+2024-06-29 15:55:06.062 +07 [15220] ERROR:  syntax error at or near "df" at character 17
+2024-06-29 15:55:06.062 +07 [15220] STATEMENT:  DROP TABLE cars
+	df;
+2024-06-29 15:55:11.660 +07 [15220] ERROR:  table "cars" does not exist
+2024-06-29 15:55:11.660 +07 [15220] STATEMENT:  DROP TABLE cars;
+2024-06-29 15:56:59.419 +07 [15220] ERROR:  syntax error at or near ")" at character 126
+2024-06-29 15:56:59.419 +07 [15220] STATEMENT:  CREATE TABLE users( 
+	    user_id SERIAL PRIMARY KEY,
+	    username VARCHAR(255) NOT NULL,
+	    password VARCHAR(255) NOT NULL,
+	);
+2024-06-29 15:57:43.054 +07 [23756] ERROR:  syntax error at or near "NOT" at character 74
+2024-06-29 15:57:43.054 +07 [23756] STATEMENT:  CREATE TABLE cars(
+	    car_id SERIAL PRIMARY KEY,
+	    brand VARCHAR (255 NOT NULL,
+	    model VARCHAR(255) NOT NULL,
+	    body VARCHAR(255) NOT NULL,
+	    color VARCHAR(255) NOT NULL,
+	    seats INTEGER NOT NULL,
+	    price FLOAT NOT NULL,
+	    user_id INTEGER,
+	    FOREIGN KEY (user_id) REFERECES users(user_id)
+	);
+	CREATE TABLE users( 
+	    user_id SERIAL PRIMARY KEY,
+	    username VARCHAR(255) NOT NULL,
+	    password VARCHAR(255) NOT NULL,
+	);
+	fasf
+	);
+2024-06-29 15:58:05.102 +07 [23756] ERROR:  syntax error at or near ")" at character 126
+2024-06-29 15:58:05.102 +07 [23756] STATEMENT:  CREATE TABLE users( 
+	    user_id SERIAL PRIMARY KEY,
+	    username VARCHAR(255) NOT NULL,
+	    password VARCHAR(255) NOT NULL,
+	);
+2024-06-29 15:58:33.956 +07 [23756] ERROR:  syntax error at or near "REFERECES" at character 284
+2024-06-29 15:58:33.956 +07 [23756] STATEMENT:  CREATE TABLE cars(
+	    car_id SERIAL PRIMARY KEY,
+	    brand VARCHAR (255) NOT NULL,
+	    model VARCHAR(255) NOT NULL,
+	    body VARCHAR(255) NOT NULL,
+	    color VARCHAR(255) NOT NULL,
+	    seats INTEGER NOT NULL,
+	    price FLOAT NOT NULL,
+	    user_id INTEGER,
+	    FOREIGN KEY (user_id) REFERECES users(user_id)
+	);
+2024-06-29 15:58:59.187 +07 [23756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-29 16:00:03.825 +07 [7664] LOG:  checkpoint starting: time
+2024-06-29 16:00:10.899 +07 [7664] LOG:  checkpoint complete: wrote 66 buffers (0.4%); 0 WAL file(s) added, 0 removed, 1 recycled; write=6.997 s, sync=0.054 s, total=7.075 s; sync files=51, longest=0.010 s, average=0.002 s; distance=215 kB, estimate=4267 kB; lsn=0/20349E0, redo lsn=0/20349A8

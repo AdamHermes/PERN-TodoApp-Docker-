@@ -1,0 +1,132 @@
+2024-05-19 16:43:41.524 +07 [7520] FATAL:  password authentication failed for user "LENOVO"
+2024-05-19 16:43:41.524 +07 [7520] DETAIL:  Role "LENOVO" does not exist.
+	Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-19 16:43:52.673 +07 [20352] FATAL:  password authentication failed for user "LENOVO"
+2024-05-19 16:43:52.673 +07 [20352] DETAIL:  Role "LENOVO" does not exist.
+	Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-19 16:53:19.894 +07 [3044] FATAL:  password authentication failed for user "LENOVO"
+2024-05-19 16:53:19.894 +07 [3044] DETAIL:  Role "LENOVO" does not exist.
+	Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-19 16:55:11.341 +07 [17616] FATAL:  password authentication failed for user "postgres"
+2024-05-19 16:55:11.341 +07 [17616] DETAIL:  Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-19 17:03:01.934 +07 [4820] FATAL:  password authentication failed for user "AdamHermes"
+2024-05-19 17:03:01.934 +07 [4820] DETAIL:  Role "AdamHermes" does not exist.
+	Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-19 17:03:49.297 +07 [26464] FATAL:  password authentication failed for user "AdamHermes"
+2024-05-19 17:03:49.297 +07 [26464] DETAIL:  Role "AdamHermes" does not exist.
+	Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-19 17:04:00.218 +07 [6536] FATAL:  password authentication failed for user "AdamHermes"
+2024-05-19 17:04:00.218 +07 [6536] DETAIL:  Role "AdamHermes" does not exist.
+	Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-19 17:06:16.694 +07 [2572] ERROR:  malformed array literal: "I need to study Node.js and Express.js"
+2024-05-19 17:06:16.694 +07 [2572] DETAIL:  Array value must start with "{" or dimension information.
+2024-05-19 17:06:16.694 +07 [2572] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-19 17:06:16.694 +07 [2572] STATEMENT:  INSERT INTO todo (description) VALUES($1)
+2024-05-19 17:07:13.392 +07 [16948] ERROR:  malformed array literal: "I need to study"
+2024-05-19 17:07:13.392 +07 [16948] DETAIL:  Array value must start with "{" or dimension information.
+2024-05-19 17:07:13.392 +07 [16948] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-19 17:07:13.392 +07 [16948] STATEMENT:  INSERT INTO todo (description) VALUES($1)
+2024-05-19 17:08:59.193 +07 [26244] ERROR:  malformed array literal: "I need to study"
+2024-05-19 17:08:59.193 +07 [26244] DETAIL:  Array value must start with "{" or dimension information.
+2024-05-19 17:08:59.193 +07 [26244] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-19 17:08:59.193 +07 [26244] STATEMENT:  INSERT INTO todo (description) VALUES($1)
+2024-05-19 17:11:47.989 +07 [12992] ERROR:  malformed array literal: "I need to study"
+2024-05-19 17:11:47.989 +07 [12992] DETAIL:  Array value must start with "{" or dimension information.
+2024-05-19 17:11:47.989 +07 [12992] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-19 17:11:47.989 +07 [12992] STATEMENT:  INSERT INTO todo (description) VALUES($1)
+2024-05-19 17:13:42.209 +07 [9404] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-19 17:13:42.209 +07 [9404] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-19 17:15:58.369 +07 [12448] ERROR:  malformed array literal: "I need to study"
+2024-05-19 17:15:58.369 +07 [12448] DETAIL:  Array value must start with "{" or dimension information.
+2024-05-19 17:15:58.369 +07 [12448] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-19 17:15:58.369 +07 [12448] STATEMENT:  INSERT INTO todo (description) VALUES($1)
+2024-05-19 17:21:31.602 +07 [13660] ERROR:  malformed array literal: "I need to study"
+2024-05-19 17:21:31.602 +07 [13660] DETAIL:  Array value must start with "{" or dimension information.
+2024-05-19 17:21:31.602 +07 [13660] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-19 17:21:31.602 +07 [13660] STATEMENT:  INSERT INTO todo (description) VALUES($1)
+2024-05-19 17:23:08.984 +07 [20256] ERROR:  malformed array literal: "I need to study"
+2024-05-19 17:23:08.984 +07 [20256] DETAIL:  Array value must start with "{" or dimension information.
+2024-05-19 17:23:08.984 +07 [20256] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-19 17:23:08.984 +07 [20256] STATEMENT:  INSERT INTO todo (description) VALUES($1)
+2024-05-19 17:25:04.548 +07 [9404] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-19 17:30:19.488 +07 [7504] LOG:  checkpoint starting: time
+2024-05-19 17:30:22.987 +07 [7504] LOG:  checkpoint complete: wrote 33 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.470 s, sync=0.020 s, total=3.501 s; sync files=24, longest=0.010 s, average=0.001 s; distance=136 kB, estimate=136 kB; lsn=0/1A7E100, redo lsn=0/1A7DEA8
+2024-05-19 17:31:58.202 +07 [22424] ERROR:  syntax error at or near "perntodo" at character 18
+2024-05-19 17:31:58.202 +07 [22424] STATEMENT:  ALTER TABLE todo
+	perntodo-# ALTER COLUMN description
+	perntodo-# SET DATA TYPE VARCHAR();
+2024-05-19 17:32:57.902 +07 [22424] ERROR:  syntax error at or near ")" at character 65
+2024-05-19 17:32:57.902 +07 [22424] STATEMENT:  ALTER TABLE todo
+	ALTER COLUMN description
+	SET DATA TYPE VARCHAR()
+	SET DATA TYPE VARCHAR;
+2024-05-19 17:33:27.347 +07 [22424] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-19 17:35:19.993 +07 [7504] LOG:  checkpoint starting: time
+2024-05-19 17:35:20.343 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.322 s, sync=0.012 s, total=0.351 s; sync files=4, longest=0.009 s, average=0.003 s; distance=1 kB, estimate=122 kB; lsn=0/1A7E3C8, redo lsn=0/1A7E390
+2024-05-19 17:37:46.411 +07 [15632] ERROR:  relation "todo" does not exist at character 15
+2024-05-19 17:37:46.411 +07 [15632] STATEMENT:  SELECT * FROM todo;
+2024-05-19 17:40:19.353 +07 [7504] LOG:  checkpoint starting: time
+2024-05-19 17:40:19.697 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.314 s, sync=0.014 s, total=0.344 s; sync files=4, longest=0.010 s, average=0.004 s; distance=1 kB, estimate=110 kB; lsn=0/1A7E8A0, redo lsn=0/1A7E868
+2024-05-20 07:13:51.432 +07 [23468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-21 04:57:14.971 +07 [22380] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-21 04:57:14.971 +07 [22380] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-21 04:58:24.797 +07 [22380] ERROR:  column "I need to clean my room" does not exist at character 38
+2024-05-21 04:58:24.797 +07 [22380] STATEMENT:  INSERT INTO todo(description) VALUES("I need to clean my room");
+2024-05-21 05:00:01.340 +07 [22380] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-21 05:00:01.340 +07 [22380] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-21 05:00:04.306 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 05:00:04.672 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.334 s, sync=0.017 s, total=0.367 s; sync files=4, longest=0.011 s, average=0.005 s; distance=1 kB, estimate=99 kB; lsn=0/1A7ECB8, redo lsn=0/1A7EC80
+2024-05-21 05:04:35.264 +07 [22380] ERROR:  syntax error at or near "DELETE" at character 36
+2024-05-21 05:04:35.264 +07 [22380] STATEMENT:  DELETE FROM todo WHERE todo_id = 6
+	DELETE FROM todo WHERE todo_id = 6;
+2024-05-21 05:05:04.678 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 05:05:04.923 +07 [7504] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.215 s, sync=0.008 s, total=0.245 s; sync files=3, longest=0.004 s, average=0.003 s; distance=0 kB, estimate=89 kB; lsn=0/1A7EF98, redo lsn=0/1A7EF60
+2024-05-21 05:05:25.820 +07 [22380] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-21 05:05:25.820 +07 [22380] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-21 05:05:56.053 +07 [22380] ERROR:  column "I need to clean my room" does not exist at character 39
+2024-05-21 05:05:56.053 +07 [22380] STATEMENT:  INSERT INTO todo(description) VALUES ("I need to clean my room");
+2024-05-21 05:06:37.703 +07 [22380] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-21 05:06:37.703 +07 [22380] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-21 05:10:04.934 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 05:10:05.384 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.358 s, sync=0.026 s, total=0.451 s; sync files=4, longest=0.014 s, average=0.007 s; distance=1 kB, estimate=80 kB; lsn=0/1A7F4D0, redo lsn=0/1A7F498
+2024-05-21 05:15:04.399 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 05:15:04.755 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.328 s, sync=0.017 s, total=0.357 s; sync files=4, longest=0.011 s, average=0.005 s; distance=1 kB, estimate=72 kB; lsn=0/1A7F980, redo lsn=0/1A7F948
+2024-05-21 05:40:04.800 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 05:40:04.931 +07 [7504] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.005 s, total=0.132 s; sync files=2, longest=0.003 s, average=0.003 s; distance=1 kB, estimate=65 kB; lsn=0/1A7FE88, redo lsn=0/1A7FE50
+2024-05-21 05:55:04.950 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 05:55:05.198 +07 [7504] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.216 s, sync=0.013 s, total=0.248 s; sync files=3, longest=0.009 s, average=0.005 s; distance=1 kB, estimate=59 kB; lsn=0/1A80298, redo lsn=0/1A80260
+2024-05-21 06:09:17.372 +07 [22380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-21 11:43:55.085 +07 [24504] ERROR:  syntax error at or near "user" at character 14
+2024-05-21 11:43:55.085 +07 [24504] STATEMENT:  CREATE TABLE user(
+	    user_id SERIAL PRIMARY KEY,
+	    username VARCHAR(30),
+	    upassword VARCHAR(30)
+	);
+2024-05-21 11:47:03.300 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 11:47:07.524 +07 [7504] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.185 s, sync=0.029 s, total=4.225 s; sync files=34, longest=0.010 s, average=0.001 s; distance=155 kB, estimate=155 kB; lsn=0/1AA6FB8, redo lsn=0/1AA6F80
+2024-05-21 11:59:56.370 +07 [22124] FATAL:  database "users" does not exist
+2024-05-21 12:00:57.340 +07 [24504] ERROR:  syntax error at or near "SELECT" at character 21
+2024-05-21 12:00:57.340 +07 [24504] STATEMENT:  SELECT * FROM users
+	SELECT * FROM users;
+2024-05-21 12:07:03.545 +07 [7504] LOG:  checkpoint starting: time
+2024-05-21 12:07:04.463 +07 [7504] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.883 s, sync=0.018 s, total=0.918 s; sync files=8, longest=0.010 s, average=0.003 s; distance=0 kB, estimate=139 kB; lsn=0/1AA7290, redo lsn=0/1AA7258
+2024-05-21 12:09:03.900 +07 [24504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-21 12:10:31.115 +07 [18760] ERROR:  value too long for type character varying(30)
+2024-05-21 12:10:31.115 +07 [18760] STATEMENT:  INSERT INTO users (username, upassword) VALUES ($1,$2) RETURNING *
+2024-05-21 12:11:53.591 +07 [23756] ERROR:  syntax error at or near "SELECT" at character 21
+2024-05-21 12:11:53.591 +07 [23756] STATEMENT:  SELECT * FROM users
+	SELECT * FROM users;
+2024-05-21 12:12:02.408 +07 [23756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

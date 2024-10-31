@@ -1,0 +1,154 @@
+2024-05-23 13:13:06.984 +07 [10512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 13:18:51.370 +07 [14452] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 13:25:03.743 +07 [6636] ERROR:  invalid input syntax for type integer: "$(id)"
+2024-05-23 13:25:03.743 +07 [6636] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 13:25:03.743 +07 [6636] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 13:26:11.033 +07 [2728] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-23 13:26:11.033 +07 [2728] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-23 13:27:44.295 +07 [9968] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 13:27:44.295 +07 [9968] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 13:27:44.295 +07 [9968] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 13:29:25.514 +07 [11504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 13:29:31.942 +07 [22756] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 13:29:31.942 +07 [22756] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 13:29:31.942 +07 [22756] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 13:32:24.528 +07 [18356] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 13:32:24.528 +07 [18356] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 13:32:24.528 +07 [18356] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 13:32:41.929 +07 [15700] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 13:32:41.929 +07 [15700] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 13:32:41.929 +07 [15700] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 13:33:03.103 +07 [32004] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 13:33:03.103 +07 [32004] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 13:33:03.103 +07 [32004] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 13:36:11.523 +07 [31432] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 13:36:11.523 +07 [31432] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 13:36:11.523 +07 [31432] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 13:36:48.488 +07 [17068] ERROR:  invalid input syntax for type integer: "${:id}"
+2024-05-23 13:36:48.488 +07 [17068] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 13:36:48.488 +07 [17068] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 13:37:10.315 +07 [2728] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 15:02:43.245 +07 [24508] ERROR:  syntax error at or near "SELECT" at character 20
+2024-05-23 15:02:43.245 +07 [24508] STATEMENT:  SELECT * FROM todo
+	SELECT * FROM todo;
+2024-05-23 15:06:02.230 +07 [3120] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 15:06:02.230 +07 [3120] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 15:06:02.230 +07 [3120] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 15:12:36.275 +07 [31888] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 15:12:36.275 +07 [31888] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 15:12:36.275 +07 [31888] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 15:20:40.439 +07 [13720] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 15:20:40.439 +07 [13720] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 15:20:40.439 +07 [13720] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 15:21:10.178 +07 [16928] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 15:21:10.178 +07 [16928] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 15:21:10.178 +07 [16928] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 15:25:05.701 +07 [7504] LOG:  checkpoint starting: time
+2024-05-23 15:25:06.067 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.332 s, sync=0.014 s, total=0.367 s; sync files=4, longest=0.010 s, average=0.004 s; distance=2 kB, estimate=80 kB; lsn=0/1ABE248, redo lsn=0/1ABE210
+2024-05-23 15:33:01.362 +07 [27452] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 15:33:01.362 +07 [27452] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 15:33:01.362 +07 [27452] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 15:34:41.663 +07 [31740] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 15:34:41.663 +07 [31740] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 15:34:41.663 +07 [31740] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 15:37:24.846 +07 [24508] ERROR:  syntax error at or near "SELECT" at character 21
+2024-05-23 15:37:24.846 +07 [24508] STATEMENT:  SELECT * FROM todo
+	 SELECT * FROM todo;
+2024-05-23 15:37:28.408 +07 [24508] ERROR:  syntax error at or near "SELECT" at character 21
+2024-05-23 15:37:28.408 +07 [24508] STATEMENT:  SELECT * FROM todo
+	 SELECT * FROM todo;
+2024-05-23 16:10:23.076 +07 [2648] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:10:23.076 +07 [2648] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:10:23.076 +07 [2648] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:11:17.938 +07 [23316] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:11:17.938 +07 [23316] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:11:17.938 +07 [23316] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:15:34.524 +07 [12616] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:15:34.524 +07 [12616] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:15:34.524 +07 [12616] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:17:06.668 +07 [19132] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:17:06.668 +07 [19132] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:17:06.668 +07 [19132] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:20:01.696 +07 [10048] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:20:01.696 +07 [10048] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:20:01.696 +07 [10048] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:21:15.259 +07 [18476] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:21:15.259 +07 [18476] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:21:15.259 +07 [18476] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:23:08.539 +07 [24508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 16:25:20.581 +07 [22260] ERROR:  syntax error at or near "SELECT" at character 21
+2024-05-23 16:25:20.581 +07 [22260] STATEMENT:  SELECT * FROM user
+	 SELECT * FROM perntodo;
+2024-05-23 16:25:25.660 +07 [22260] ERROR:  relation "perntodo" does not exist at character 15
+2024-05-23 16:25:25.660 +07 [22260] STATEMENT:  SELECT * FROM perntodo;
+2024-05-23 16:26:33.098 +07 [20980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 16:26:35.040 +07 [10856] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:26:35.040 +07 [10856] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:26:35.040 +07 [10856] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:27:09.057 +07 [7504] LOG:  checkpoint starting: time
+2024-05-23 16:27:09.187 +07 [7504] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.108 s, sync=0.005 s, total=0.131 s; sync files=2, longest=0.003 s, average=0.003 s; distance=1 kB, estimate=72 kB; lsn=0/1ABE8A0, redo lsn=0/1ABE868
+2024-05-23 16:31:21.113 +07 [28792] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:31:21.113 +07 [28792] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:31:21.113 +07 [28792] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:37:17.223 +07 [13320] ERROR:  invalid input syntax for type integer: "${id}"
+2024-05-23 16:37:17.223 +07 [13320] CONTEXT:  unnamed portal parameter $1 = '...'
+2024-05-23 16:37:17.223 +07 [13320] STATEMENT:  DELETE FROM todo WHERE todo_id = $1
+2024-05-23 16:42:09.214 +07 [7504] LOG:  checkpoint starting: time
+2024-05-23 16:42:09.340 +07 [7504] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.106 s, sync=0.002 s, total=0.127 s; sync files=2, longest=0.002 s, average=0.001 s; distance=1 kB, estimate=65 kB; lsn=0/1ABEE60, redo lsn=0/1ABEE28
+2024-05-23 16:46:16.353 +07 [22260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 20:03:51.182 +07 [7504] LOG:  checkpoint starting: time
+2024-05-23 20:03:51.541 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.326 s, sync=0.014 s, total=0.359 s; sync files=4, longest=0.011 s, average=0.004 s; distance=2 kB, estimate=59 kB; lsn=0/1ABF6A0, redo lsn=0/1ABF668
+2024-05-23 20:11:38.990 +07 [18976] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 20:13:51.547 +07 [7504] LOG:  checkpoint starting: time
+2024-05-23 20:13:51.707 +07 [7504] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.128 s, sync=0.011 s, total=0.161 s; sync files=2, longest=0.010 s, average=0.006 s; distance=1 kB, estimate=53 kB; lsn=0/1ABFE30, redo lsn=0/1ABFDF8
+2024-05-23 20:18:51.709 +07 [7504] LOG:  checkpoint starting: time
+2024-05-23 20:18:51.820 +07 [7504] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.101 s, sync=0.003 s, total=0.111 s; sync files=2, longest=0.002 s, average=0.002 s; distance=1 kB, estimate=48 kB; lsn=0/1AC05C8, redo lsn=0/1AC0590
+2024-05-23 20:27:09.316 +07 [1948] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-23 20:28:51.856 +07 [7504] LOG:  checkpoint starting: time
+2024-05-23 20:28:52.228 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.343 s, sync=0.014 s, total=0.372 s; sync files=4, longest=0.010 s, average=0.004 s; distance=3 kB, estimate=43 kB; lsn=0/1AC1200, redo lsn=0/1AC11C8
+2024-05-24 12:13:37.299 +07 [7504] LOG:  checkpoint starting: time
+2024-05-24 12:13:37.437 +07 [7504] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.011 s, total=0.138 s; sync files=2, longest=0.010 s, average=0.006 s; distance=1 kB, estimate=39 kB; lsn=0/1AC19E8, redo lsn=0/1AC19B0
+2024-05-24 12:38:05.515 +07 [10536] FATAL:  database "users" does not exist
+2024-05-24 12:39:16.365 +07 [19600] ERROR:  syntax error at or near "SELECT" at character 21
+2024-05-24 12:39:16.365 +07 [19600] STATEMENT:  SELECT * FROM users
+	SELECT * FROM users;
+2024-05-24 12:40:26.247 +07 [5576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-24 12:40:56.633 +07 [18804] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-24 12:43:37.491 +07 [7504] LOG:  checkpoint starting: time
+2024-05-24 12:43:37.613 +07 [7504] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.006 s, total=0.123 s; sync files=2, longest=0.006 s, average=0.003 s; distance=0 kB, estimate=35 kB; lsn=0/1AC1C60, redo lsn=0/1AC1C28
+2024-05-24 12:47:38.817 +07 [19600] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-24 12:48:37.619 +07 [7504] LOG:  checkpoint starting: time
+2024-05-24 12:48:37.953 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.012 s, total=0.334 s; sync files=4, longest=0.009 s, average=0.003 s; distance=0 kB, estimate=32 kB; lsn=0/1AC2028, redo lsn=0/1AC1FD8
+2024-05-24 13:13:37.974 +07 [7504] LOG:  checkpoint starting: time
+2024-05-24 13:13:38.758 +07 [7504] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.749 s, sync=0.017 s, total=0.785 s; sync files=8, longest=0.009 s, average=0.003 s; distance=7 kB, estimate=29 kB; lsn=0/1AC3CA8, redo lsn=0/1AC3C70
+2024-05-24 14:43:37.648 +07 [25844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-24 15:01:14.074 +07 [6492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-24 15:46:17.268 +07 [7504] LOG:  checkpoint starting: time
+2024-05-24 15:46:17.615 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.319 s, sync=0.012 s, total=0.348 s; sync files=4, longest=0.009 s, average=0.003 s; distance=1 kB, estimate=26 kB; lsn=0/1AC40E0, redo lsn=0/1AC40A8
+2024-05-24 15:50:08.876 +07 [16464] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-25 05:51:58.269 +07 [30112] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-25 06:46:21.553 +07 [24300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-25 06:50:42.764 +07 [7504] LOG:  checkpoint starting: time
+2024-05-25 06:50:43.122 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.327 s, sync=0.013 s, total=0.358 s; sync files=4, longest=0.010 s, average=0.004 s; distance=1 kB, estimate=24 kB; lsn=0/1AC46B0, redo lsn=0/1AC4678
+2024-05-25 06:55:42.123 +07 [7504] LOG:  checkpoint starting: time
+2024-05-25 06:55:42.490 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.338 s, sync=0.013 s, total=0.368 s; sync files=4, longest=0.010 s, average=0.004 s; distance=1 kB, estimate=22 kB; lsn=0/1AC4C60, redo lsn=0/1AC4C28
+2024-05-25 07:08:35.858 +07 [27976] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

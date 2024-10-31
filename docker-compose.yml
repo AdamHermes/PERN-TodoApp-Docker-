@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  database:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: AdamBach662005
+      POSTGRES_DB: perntodo
+    ports:
+      - "5432:5432"
+    volumes:
+      - "./Postgresql_Database:/var/lib/postgresql/data"
+
+  backend:
+    container_name: backend
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgres://postgres:AdamBach662005@database:5432/perntodo
+    ports:
+      - 5000:5000
+    depends_on:
+      - database
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./server/client
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      REACT_APP_BACKEND_URL: http://localhost:5000  # Use the backend service name
+    depends_on:
+      - backend

@@ -1,0 +1,6 @@
+2024-06-07 13:51:53.599 +07 [7452] LOG:  checkpoint starting: time
+2024-06-07 13:51:54.066 +07 [7452] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.433 s, sync=0.015 s, total=0.468 s; sync files=5, longest=0.011 s, average=0.003 s; distance=7 kB, estimate=39 kB; lsn=0/1B59A20, redo lsn=0/1B599E8
+2024-06-07 14:01:53.083 +07 [7452] LOG:  checkpoint starting: time
+2024-06-07 14:01:53.219 +07 [7452] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.006 s, total=0.137 s; sync files=2, longest=0.004 s, average=0.003 s; distance=5 kB, estimate=35 kB; lsn=0/1B5AF18, redo lsn=0/1B5AEE0
+2024-06-07 14:06:53.223 +07 [7452] LOG:  checkpoint starting: time
+2024-06-07 14:06:53.597 +07 [7452] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.341 s, sync=0.015 s, total=0.375 s; sync files=4, longest=0.011 s, average=0.004 s; distance=6 kB, estimate=32 kB; lsn=0/1B5CA18, redo lsn=0/1B5C9E0

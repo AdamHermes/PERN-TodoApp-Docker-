@@ -1,0 +1,43 @@
+2024-05-29 13:59:16.860 +07 [7476] LOG:  database system was shut down at 2024-05-29 13:58:39 +07
+2024-05-29 14:04:16.858 +07 [7452] LOG:  checkpoint starting: time
+2024-05-29 14:04:16.877 +07 [7452] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.003 s, total=0.021 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1AC5CE0, redo lsn=0/1AC5CA8
+2024-05-30 11:09:11.127 +07 [23248] FATAL:  password authentication failed for user "postgres"
+2024-05-30 11:09:11.127 +07 [23248] DETAIL:  Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-30 11:09:40.131 +07 [13396] ERROR:  column "id" referenced in foreign key constraint does not exist
+2024-05-30 11:09:40.131 +07 [13396] STATEMENT:  CREATE TABLE todos (
+	    id SERIAL PRIMARY KEY,
+	    user_id INTEGER NOT NULL,
+	    description VARCHAR(255),
+	    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+	);
+2024-05-30 11:10:18.133 +07 [13396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-30 11:11:42.743 +07 [5940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-30 11:14:02.018 +07 [7452] LOG:  checkpoint starting: time
+2024-05-30 11:14:06.883 +07 [7452] LOG:  checkpoint complete: wrote 45 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.808 s, sync=0.038 s, total=4.866 s; sync files=39, longest=0.010 s, average=0.001 s; distance=175 kB, estimate=175 kB; lsn=0/1AF1AC0, redo lsn=0/1AF1A88
+2024-05-30 11:21:14.592 +07 [18824] ERROR:  syntax error at or near "SELECT" at character 39
+2024-05-30 11:21:14.592 +07 [18824] STATEMENT:  SELECT * FROM todos WHERE user_id = 4
+	SELECT * FROM todos WHERE user_id = 4;
+2024-05-30 11:21:22.622 +07 [18824] ERROR:  syntax error at or near "SELECT" at character 39
+2024-05-30 11:21:22.622 +07 [18824] STATEMENT:  SELECT * FROM todos WHERE user_id = 4
+	SELECT * FROM todos WHERE user_id = 4
+	SELECT * FROM todos WHERE user_id = 4;
+2024-05-30 11:24:02.886 +07 [7452] LOG:  checkpoint starting: time
+2024-05-30 11:24:05.740 +07 [7452] LOG:  checkpoint complete: wrote 27 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.801 s, sync=0.037 s, total=2.855 s; sync files=25, longest=0.011 s, average=0.002 s; distance=64 kB, estimate=164 kB; lsn=0/1B01DF0, redo lsn=0/1B01DB8
+2024-05-30 12:03:33.717 +07 [18824] ERROR:  syntax error at or near "SELECT" at character 39
+2024-05-30 12:03:33.717 +07 [18824] STATEMENT:  SELECT * FROM todos WHERE user_id = 3
+	SELECT * FROM todos WHERE user_id = 3;
+2024-05-30 12:04:02.798 +07 [7452] LOG:  checkpoint starting: time
+2024-05-30 12:04:03.154 +07 [7452] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.326 s, sync=0.014 s, total=0.357 s; sync files=4, longest=0.010 s, average=0.004 s; distance=13 kB, estimate=149 kB; lsn=0/1B05450, redo lsn=0/1B05418
+2024-05-30 12:04:24.612 +07 [18824] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-30 12:48:55.919 +07 [23240] ERROR:  syntax error at or near "SELECT" at character 21
+2024-05-30 12:48:55.919 +07 [23240] STATEMENT:  SELECT * FROM users
+	SELECT * FROM users;
+2024-05-30 12:54:02.221 +07 [7452] LOG:  checkpoint starting: time
+2024-05-30 12:54:02.579 +07 [7452] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.331 s, sync=0.012 s, total=0.359 s; sync files=4, longest=0.009 s, average=0.003 s; distance=1 kB, estimate=134 kB; lsn=0/1B05A78, redo lsn=0/1B05A40
+2024-05-30 13:00:12.992 +07 [23240] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-30 13:00:14.573 +07 [16184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

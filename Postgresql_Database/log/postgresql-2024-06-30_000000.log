@@ -1,0 +1,4 @@
+2024-07-01 11:26:11.090 +07 [7292] LOG:  checkpoint starting: time
+2024-07-01 11:26:14.723 +07 [7292] LOG:  checkpoint complete: wrote 33 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.579 s, sync=0.022 s, total=3.634 s; sync files=31, longest=0.003 s, average=0.001 s; distance=151 kB, estimate=4255 kB; lsn=0/2DEE880, redo lsn=0/2DEE848
+2024-07-01 13:23:49.632 +07 [8736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

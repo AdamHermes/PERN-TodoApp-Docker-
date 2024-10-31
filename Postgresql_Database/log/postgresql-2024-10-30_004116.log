@@ -1,0 +1,26 @@
+2024-10-30 00:41:16.602 +07 [5152] LOG:  database system was shut down at 2024-10-30 00:40:42 +07
+2024-10-30 07:46:40.820 +07 [5156] LOG:  checkpoint starting: time
+2024-10-30 07:46:40.846 +07 [5156] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.008 s, sync=0.004 s, total=0.028 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/2DFD8D0, redo lsn=0/2DFD898
+2024-10-30 09:51:40.478 +07 [5156] LOG:  checkpoint starting: time
+2024-10-30 09:51:40.844 +07 [5156] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.353 s, sync=0.003 s, total=0.368 s; sync files=4, longest=0.002 s, average=0.001 s; distance=5 kB, estimate=5 kB; lsn=0/2DFEEE0, redo lsn=0/2DFEEA8
+2024-10-30 10:52:30.743 +07 [18732] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-10-30 10:52:30.743 +07 [21300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-10-30 10:52:58.884 +07 [5156] LOG:  checkpoint starting: time
+2024-10-30 10:52:59.235 +07 [5156] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.321 s, sync=0.004 s, total=0.354 s; sync files=4, longest=0.002 s, average=0.001 s; distance=6 kB, estimate=6 kB; lsn=0/2E00790, redo lsn=0/2E00758
+2024-10-30 13:11:35.343 +07 [21440] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-10-30 13:11:57.477 +07 [23728] ERROR:  syntax error at or near "ls" at character 1
+2024-10-30 13:11:57.477 +07 [23728] STATEMENT:  ls
+	ls ;
+2024-10-30 13:23:00.376 +07 [23728] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-10-30 13:32:21.172 +07 [5156] LOG:  checkpoint starting: time
+2024-10-30 13:32:21.537 +07 [5156] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.333 s, sync=0.013 s, total=0.366 s; sync files=4, longest=0.011 s, average=0.004 s; distance=6 kB, estimate=6 kB; lsn=0/2E022E0, redo lsn=0/2E022A8
+2024-10-30 13:52:21.571 +07 [5156] LOG:  checkpoint starting: time
+2024-10-30 13:52:21.930 +07 [5156] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.324 s, sync=0.014 s, total=0.360 s; sync files=4, longest=0.010 s, average=0.004 s; distance=7 kB, estimate=7 kB; lsn=0/2E04110, redo lsn=0/2E040D8
+2024-10-30 16:08:01.054 +07 [23160] FATAL:  password authentication failed for user "postgres"
+2024-10-30 16:08:01.054 +07 [23160] DETAIL:  Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-10-30 16:12:30.619 +07 [17632] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

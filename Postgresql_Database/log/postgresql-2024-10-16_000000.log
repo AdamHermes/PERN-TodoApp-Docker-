@@ -1,0 +1,5 @@
+2024-10-16 11:17:37.069 +07 [7948] ERROR:  canceling statement due to user request
+2024-10-16 11:17:37.069 +07 [7932] ERROR:  canceling statement due to user request
+2024-10-16 11:17:37.079 +07 [7568] LOG:  shutting down
+2024-10-16 11:17:37.081 +07 [7568] LOG:  checkpoint starting: shutdown immediate
+2024-10-16 11:17:37.095 +07 [7568] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.016 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/2DF51D0, redo lsn=0/2DF51D0

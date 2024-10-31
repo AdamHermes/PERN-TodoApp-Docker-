@@ -1,0 +1,40 @@
+2024-06-01 16:59:40.086 +07 [16752] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 00:16:07.370 +07 [12496] ERROR:  syntax error at or near "SELECT" at character 21
+2024-06-02 00:16:07.370 +07 [12496] STATEMENT:  SELECT * FROM users
+	SELECT * FROM users;
+2024-06-02 00:18:14.234 +07 [12496] ERROR:  syntax error at or near "table" at character 8
+2024-06-02 00:18:14.234 +07 [12496] STATEMENT:  DELETE table todo;
+2024-06-02 00:19:51.367 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 00:19:52.806 +07 [7452] LOG:  checkpoint complete: wrote 14 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.417 s, sync=0.012 s, total=1.440 s; sync files=11, longest=0.004 s, average=0.002 s; distance=62 kB, estimate=127 kB; lsn=0/1B15310, redo lsn=0/1B152D8
+2024-06-02 00:32:25.541 +07 [12496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 01:37:11.549 +07 [24728] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 10:22:14.248 +07 [13708] ERROR:  null value in column "user_id" of relation "todos" violates not-null constraint
+2024-06-02 10:22:14.248 +07 [13708] DETAIL:  Failing row contains (4, null, dfsdf).
+2024-06-02 10:22:14.248 +07 [13708] STATEMENT:  INSERT INTO todos (user_id, description) VALUES($1,$2) RETURNING *
+2024-06-02 10:26:39.037 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 10:26:39.174 +07 [7452] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.113 s, sync=0.006 s, total=0.138 s; sync files=2, longest=0.004 s, average=0.003 s; distance=0 kB, estimate=114 kB; lsn=0/1B154C0, redo lsn=0/1B15488
+2024-06-02 10:35:04.196 +07 [10884] ERROR:  null value in column "user_id" of relation "todos" violates not-null constraint
+2024-06-02 10:35:04.196 +07 [10884] DETAIL:  Failing row contains (5, null, Hello).
+2024-06-02 10:35:04.196 +07 [10884] STATEMENT:  INSERT INTO todos (user_id, description) VALUES($1,$2) RETURNING *
+2024-06-02 10:36:39.198 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 10:36:39.342 +07 [7452] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.115 s, sync=0.013 s, total=0.145 s; sync files=2, longest=0.011 s, average=0.007 s; distance=0 kB, estimate=103 kB; lsn=0/1B15670, redo lsn=0/1B15638
+2024-06-02 10:51:39.054 +07 [23764] ERROR:  null value in column "user_id" of relation "todos" violates not-null constraint
+2024-06-02 10:51:39.054 +07 [23764] DETAIL:  Failing row contains (6, null, Hello everyone).
+2024-06-02 10:51:39.054 +07 [23764] STATEMENT:  INSERT INTO todos (user_id, description) VALUES($1,$2) RETURNING *
+2024-06-02 10:51:39.361 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 10:51:39.495 +07 [7452] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.114 s, sync=0.012 s, total=0.135 s; sync files=2, longest=0.010 s, average=0.006 s; distance=0 kB, estimate=92 kB; lsn=0/1B157E8, redo lsn=0/1B157B0
+2024-06-02 10:52:19.280 +07 [9424] ERROR:  null value in column "user_id" of relation "todos" violates not-null constraint
+2024-06-02 10:52:19.280 +07 [9424] DETAIL:  Failing row contains (7, null, Hello everyone).
+2024-06-02 10:52:19.280 +07 [9424] STATEMENT:  INSERT INTO todos (user_id, description) VALUES($1,$2) RETURNING *
+2024-06-02 10:56:39.504 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 10:56:40.095 +07 [7452] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.560 s, sync=0.016 s, total=0.591 s; sync files=6, longest=0.009 s, average=0.003 s; distance=2 kB, estimate=83 kB; lsn=0/1B16068, redo lsn=0/1B16030
+2024-06-02 10:58:11.070 +07 [7828] ERROR:  null value in column "user_id" of relation "todos" violates not-null constraint
+2024-06-02 10:58:11.070 +07 [7828] DETAIL:  Failing row contains (9, null, Hello everyone).
+2024-06-02 10:58:11.070 +07 [7828] STATEMENT:  INSERT INTO todos (user_id, description) VALUES($1,$2) RETURNING *
+2024-06-02 10:59:45.512 +07 [25768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 11:01:39.104 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 11:01:39.698 +07 [7452] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.554 s, sync=0.014 s, total=0.594 s; sync files=6, longest=0.009 s, average=0.003 s; distance=2 kB, estimate=75 kB; lsn=0/1B168F8, redo lsn=0/1B168C0

@@ -1,0 +1,18 @@
+2024-05-14 17:17:07.821 +07 [13368] LOG:  database system was shut down at 2024-05-14 17:17:02 +07
+2024-05-14 17:22:07.825 +07 [1652] LOG:  checkpoint starting: time
+2024-05-14 17:22:15.572 +07 [1652] LOG:  checkpoint complete: wrote 74 buffers (0.5%); 0 WAL file(s) added, 0 removed, 0 recycled; write=7.686 s, sync=0.038 s, total=7.748 s; sync files=31, longest=0.010 s, average=0.002 s; distance=408 kB, estimate=408 kB; lsn=0/15D9378, redo lsn=0/15D9340
+2024-05-14 20:09:53.083 +07 [1652] LOG:  checkpoint starting: time
+2024-05-14 20:09:53.766 +07 [1652] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.650 s, sync=0.016 s, total=0.684 s; sync files=3, longest=0.014 s, average=0.006 s; distance=29 kB, estimate=371 kB; lsn=0/15E0AB8, redo lsn=0/15E0A80
+2024-05-14 21:24:40.234 +07 [20872] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-14 23:37:08.108 +07 [17384] FATAL:  password authentication failed for user "postgres"
+2024-05-14 23:37:08.108 +07 [17384] DETAIL:  Connection matched file "D:/Postgresql Database/pg_hba.conf" line 117: "host    all             all             ::1/128                 scram-sha-256"
+2024-05-14 23:44:02.309 +07 [17124] FATAL:  database "template0" is not currently accepting connections
+2024-05-14 23:45:16.362 +07 [23344] FATAL:  database "jwtauth" does not exist
+2024-05-14 23:46:29.210 +07 [5100] ERROR:  syntax error at or near "/" at character 1
+2024-05-14 23:46:29.210 +07 [5100] STATEMENT:  /l
+	CREATE DATABASE perntodo;
+2024-05-14 23:50:24.440 +07 [1652] LOG:  checkpoint starting: time
+2024-05-14 23:52:10.434 +07 [1652] LOG:  checkpoint complete: wrote 979 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=105.873 s, sync=0.103 s, total=105.994 s; sync files=305, longest=0.009 s, average=0.001 s; distance=4579 kB, estimate=4579 kB; lsn=0/1A598A0, redo lsn=0/1A59868
+2024-05-14 23:55:46.717 +07 [21196] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

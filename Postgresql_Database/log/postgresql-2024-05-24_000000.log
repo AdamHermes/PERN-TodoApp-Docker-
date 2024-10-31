@@ -1,0 +1,2 @@
+2024-05-25 15:07:41.513 +07 [7504] LOG:  checkpoint starting: time
+2024-05-25 15:07:41.877 +07 [7504] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.333 s, sync=0.013 s, total=0.376 s; sync files=4, longest=0.009 s, average=0.004 s; distance=2 kB, estimate=20 kB; lsn=0/1AC5818, redo lsn=0/1AC57E0

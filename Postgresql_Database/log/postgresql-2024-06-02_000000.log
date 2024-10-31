@@ -1,0 +1,32 @@
+2024-06-02 17:42:11.301 +07 [22648] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 17:42:18.077 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 17:42:21.409 +07 [7452] LOG:  checkpoint complete: wrote 31 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.312 s, sync=0.011 s, total=3.332 s; sync files=30, longest=0.002 s, average=0.001 s; distance=155 kB, estimate=155 kB; lsn=0/1B3D6E0, redo lsn=0/1B3D6A8
+2024-06-02 17:46:33.511 +07 [19484] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 17:47:18.417 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 17:47:19.425 +07 [7452] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.983 s, sync=0.012 s, total=1.009 s; sync files=7, longest=0.010 s, average=0.002 s; distance=1 kB, estimate=140 kB; lsn=0/1B3DB78, redo lsn=0/1B3DB40
+2024-06-02 18:12:18.481 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 18:12:18.814 +07 [7452] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.325 s, sync=0.003 s, total=0.334 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=126 kB; lsn=0/1B3E1B8, redo lsn=0/1B3E180
+2024-06-02 18:17:18.826 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 18:17:19.169 +07 [7452] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.321 s, sync=0.004 s, total=0.344 s; sync files=4, longest=0.002 s, average=0.001 s; distance=1 kB, estimate=113 kB; lsn=0/1B3E8F8, redo lsn=0/1B3E8C0
+2024-06-02 18:17:44.619 +07 [2072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 18:17:59.855 +07 [12672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 18:45:54.030 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 18:45:54.391 +07 [7452] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.329 s, sync=0.014 s, total=0.362 s; sync files=4, longest=0.010 s, average=0.004 s; distance=2 kB, estimate=102 kB; lsn=0/1B3F138, redo lsn=0/1B3F100
+2024-06-02 18:50:54.404 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 18:50:55.281 +07 [7452] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.841 s, sync=0.017 s, total=0.877 s; sync files=9, longest=0.010 s, average=0.002 s; distance=6 kB, estimate=92 kB; lsn=0/1B40A80, redo lsn=0/1B40A48
+2024-06-02 19:50:48.349 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 19:50:48.696 +07 [7452] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.320 s, sync=0.014 s, total=0.347 s; sync files=4, longest=0.010 s, average=0.004 s; distance=4 kB, estimate=84 kB; lsn=0/1B41BF8, redo lsn=0/1B41BC0
+2024-06-02 19:55:48.742 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 19:55:49.088 +07 [7452] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.325 s, sync=0.005 s, total=0.346 s; sync files=4, longest=0.002 s, average=0.002 s; distance=4 kB, estimate=76 kB; lsn=0/1B42CF8, redo lsn=0/1B42CC0
+2024-06-02 20:00:48.102 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 20:00:49.005 +07 [7452] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.872 s, sync=0.011 s, total=0.903 s; sync files=9, longest=0.003 s, average=0.002 s; distance=7 kB, estimate=69 kB; lsn=0/1B44928, redo lsn=0/1B448F0
+2024-06-02 20:01:55.778 +07 [23872] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-06-02 20:05:48.016 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 20:05:48.907 +07 [7452] LOG:  checkpoint complete: wrote 9 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.856 s, sync=0.018 s, total=0.891 s; sync files=9, longest=0.010 s, average=0.002 s; distance=16 kB, estimate=63 kB; lsn=0/1B48A68, redo lsn=0/1B48A30
+2024-06-02 21:07:56.088 +07 [7452] LOG:  checkpoint starting: time
+2024-06-02 21:07:56.556 +07 [7452] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.435 s, sync=0.013 s, total=0.468 s; sync files=5, longest=0.010 s, average=0.003 s; distance=7 kB, estimate=58 kB; lsn=0/1B4A8D8, redo lsn=0/1B4A8A0

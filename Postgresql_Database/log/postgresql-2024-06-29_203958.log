@@ -1,0 +1,78 @@
+2024-06-29 20:39:58.934 +07 [7340] LOG:  database system was shut down at 2024-06-29 19:11:18 +07
+2024-06-29 20:44:58.936 +07 [7292] LOG:  checkpoint starting: time
+2024-06-29 20:44:59.402 +07 [7292] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.443 s, sync=0.014 s, total=0.467 s; sync files=5, longest=0.010 s, average=0.003 s; distance=8 kB, estimate=8 kB; lsn=0/2036B58, redo lsn=0/2036B20
+2024-06-29 21:50:11.697 +07 [7364] FATAL:  database "carsSale" does not exist
+2024-06-29 21:50:34.801 +07 [9500] FATAL:  database "carsSale" does not exist
+2024-06-29 21:50:49.518 +07 [19576] FATAL:  database "carsSale" does not exist
+2024-06-29 21:53:17.306 +07 [19788] FATAL:  database "carsSale" does not exist
+2024-06-29 21:55:48.532 +07 [484] ERROR:  syntax error at or near "psql" at character 1
+2024-06-29 21:55:48.532 +07 [484] STATEMENT:  psql -lqt | cut -d 
+	af;
+2024-06-29 21:57:21.588 +07 [20176] ERROR:  syntax error at or near "psql" at character 1
+2024-06-29 21:57:21.588 +07 [20176] STATEMENT:  psql -lqt | cut -d 
+	psql -lqt | cut -d 
+	psql -lqt | cut -d 
+	v;
+2024-06-29 21:58:06.469 +07 [20176] ERROR:  syntax error at or near "-" at character 1
+2024-06-29 21:58:06.469 +07 [20176] STATEMENT:  -lqt | cut -d 
+	psql -lqt | cut -d 
+	af;
+2024-06-29 21:59:01.053 +07 [20176] ERROR:  syntax error at or near "-" at character 1
+2024-06-29 21:59:01.053 +07 [20176] STATEMENT:  -lqt | cut -d 
+	-lqt
+	-lqt;
+2024-06-29 21:59:10.180 +07 [7964] ERROR:  syntax error at or near "-" at character 1
+2024-06-29 21:59:10.180 +07 [7964] STATEMENT:  -lqt
+	f;
+2024-06-29 21:59:25.370 +07 [16608] FATAL:  database "carsSale" does not exist
+2024-06-29 22:03:13.598 +07 [16480] FATAL:  database "carsSale" does not exist
+2024-06-29 22:13:13.222 +07 [2780] ERROR:  database "carssale" already exists
+2024-06-29 22:13:13.222 +07 [2780] STATEMENT:  ALTER DATABASE carssale RENAME TO carsSale;
+2024-06-29 22:14:44.958 +07 [7292] LOG:  checkpoint starting: time
+2024-06-29 22:15:59.242 +07 [7292] LOG:  checkpoint complete: wrote 972 buffers (5.9%); 0 WAL file(s) added, 0 removed, 0 recycled; write=74.164 s, sync=0.104 s, total=74.285 s; sync files=300, longest=0.002 s, average=0.001 s; distance=4560 kB, estimate=4560 kB; lsn=0/24AB248, redo lsn=0/24AACA8
+2024-06-29 22:15:59.251 +07 [7292] LOG:  checkpoint starting: immediate force wait
+2024-06-29 22:15:59.260 +07 [7292] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.009 s; sync files=1, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=4104 kB; lsn=0/24AB2F8, redo lsn=0/24AB2C0
+2024-06-29 22:16:21.742 +07 [2780] ERROR:  relation "cars" already exists
+2024-06-29 22:16:21.742 +07 [2780] STATEMENT:  CREATE TABLE cars(
+	    car_id SERIAL PRIMARY KEY,
+	    brand VARCHAR (255) NOT NULL,
+	    model VARCHAR(255) NOT NULL,
+	    body VARCHAR(255) NOT NULL,
+	    color VARCHAR(255) NOT NULL,
+	    seats INTEGER NOT NULL,
+	    price FLOAT NOT NULL,
+	    user_id INTEGER,
+	    FOREIGN KEY (user_id) REFERENCES users(user_id)
+	);
+2024-06-29 22:16:50.910 +07 [2780] ERROR:  relation "cars" already exists
+2024-06-29 22:16:50.910 +07 [2780] STATEMENT:  CREATE TABLE cars(
+	    car_id SERIAL PRIMARY KEY,
+	    brand VARCHAR (255) NOT NULL,
+	    model VARCHAR(255) NOT NULL,
+	    body VARCHAR(255) NOT NULL,
+	    color VARCHAR(255) NOT NULL,
+	    seats INTEGER NOT NULL,
+	    price FLOAT NOT NULL,
+	    user_id INTEGER,
+	    FOREIGN KEY (user_id) REFERENCES users(user_id)
+	);
+2024-06-29 22:18:57.963 +07 [2780] ERROR:  syntax error at or near "af" at character 24
+2024-06-29 22:18:57.963 +07 [2780] STATEMENT:  DROP DATABASE carssale
+	af;
+2024-06-29 22:19:04.793 +07 [7292] LOG:  checkpoint starting: immediate force wait
+2024-06-29 22:19:04.841 +07 [7292] LOG:  checkpoint complete: wrote 44 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.022 s, sync=0.021 s, total=0.049 s; sync files=40, longest=0.001 s, average=0.001 s; distance=4722 kB, estimate=4722 kB; lsn=0/2947D68, redo lsn=0/2947D30
+2024-06-29 22:19:59.363 +07 [3904] ERROR:  relation "carssale" does not exist at character 15
+2024-06-29 22:19:59.363 +07 [3904] STATEMENT:  SELECT * FROM carssale
+	af;
+2024-06-29 22:20:03.642 +07 [3904] ERROR:  relation "carssale" does not exist at character 15
+2024-06-29 22:20:03.642 +07 [3904] STATEMENT:  SELECT * FROM carssale;
+2024-06-29 22:20:13.457 +07 [3904] ERROR:  relation "carssale" does not exist at character 15
+2024-06-29 22:20:13.457 +07 [3904] STATEMENT:  SELECT * FROM carssale;
+2024-06-29 22:21:43.858 +07 [10764] ERROR:  column "description" of relation "cars" does not exist at character 27
+2024-06-29 22:21:43.858 +07 [10764] STATEMENT:  INSERT INTO cars (user_id,description) VALUES ($1,$2,$3,$4,$5,$6) RETURNING *
+2024-06-29 22:22:41.679 +07 [14452] ERROR:  INSERT has more target columns than expressions at character 56
+2024-06-29 22:22:41.679 +07 [14452] STATEMENT:  INSERT INTO cars (user_id,brand,model,body,color,seats,price) VALUES ($1,$2,$3,$4,$5,$6) RETURNING *
+2024-06-29 22:24:04.851 +07 [7292] LOG:  checkpoint starting: time
+2024-06-29 22:25:53.180 +07 [7292] LOG:  checkpoint complete: wrote 989 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=108.144 s, sync=0.168 s, total=108.330 s; sync files=310, longest=0.002 s, average=0.001 s; distance=4610 kB, estimate=4711 kB; lsn=0/2DC88A0, redo lsn=0/2DC8868
+2024-06-29 23:54:54.836 +07 [3904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

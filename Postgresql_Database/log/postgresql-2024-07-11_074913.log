@@ -1,0 +1,7 @@
+2024-07-11 07:49:13.976 +07 [7912] LOG:  database system was shut down at 2024-07-11 00:34:54 +07
+2024-07-11 07:54:13.966 +07 [7884] LOG:  checkpoint starting: time
+2024-07-11 07:54:13.980 +07 [7884] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.002 s, total=0.015 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/2DEEF20, redo lsn=0/2DEEEE8
+2024-07-11 17:29:44.786 +07 [7172] ERROR:  canceling statement due to user request
+2024-07-11 17:29:44.804 +07 [7884] LOG:  shutting down
+2024-07-11 17:29:44.807 +07 [7884] LOG:  checkpoint starting: shutdown immediate
+2024-07-11 17:29:44.962 +07 [7884] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.157 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/2DEEFD0, redo lsn=0/2DEEFD0

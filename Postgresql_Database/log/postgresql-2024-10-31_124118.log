@@ -1,0 +1,6 @@
+2024-10-31 12:41:18.363 +07 [1] LOG:  starting PostgreSQL 16.4 on x86_64-pc-linux-musl, compiled by gcc (Alpine 13.2.1_git20240309) 13.2.1 20240309, 64-bit
+2024-10-31 12:41:18.363 +07 [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-10-31 12:41:18.363 +07 [1] LOG:  listening on IPv6 address "::", port 5432
+2024-10-31 12:41:18.375 +07 [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2024-10-31 12:41:18.419 +07 [31] LOG:  database system was shut down at 2024-10-31 12:31:02 +07
+2024-10-31 12:41:18.569 +07 [1] LOG:  database system is ready to accept connections

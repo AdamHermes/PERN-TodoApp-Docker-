@@ -1,0 +1,7 @@
+2024-07-18 12:28:35.528 +07 [7440] LOG:  database system was interrupted; last known up at 2024-07-14 23:10:51 +07
+2024-07-18 12:28:35.845 +07 [7440] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-07-18 12:28:35.848 +07 [7440] LOG:  redo starts at 0/2DEF2C8
+2024-07-18 12:28:35.848 +07 [7440] LOG:  invalid record length at 0/2DEF3B0: expected at least 24, got 0
+2024-07-18 12:28:35.848 +07 [7440] LOG:  redo done at 0/2DEF378 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-07-18 12:28:35.851 +07 [7360] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-07-18 12:28:35.855 +07 [7360] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.005 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/2DEF3B0, redo lsn=0/2DEF3B0

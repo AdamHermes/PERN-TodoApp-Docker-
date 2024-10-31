@@ -1,0 +1,3 @@
+2024-10-13 15:18:59.692 +07 [7640] LOG:  database system was shut down at 2024-10-13 15:18:23 +07
+2024-10-13 15:23:59.691 +07 [7616] LOG:  checkpoint starting: time
+2024-10-13 15:23:59.706 +07 [7616] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.018 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/2DF4DF0, redo lsn=0/2DF4DB8

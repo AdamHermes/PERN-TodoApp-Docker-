@@ -1,0 +1,4 @@
+2024-05-30 22:58:53.625 +07 [9408] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-05-30 23:01:23.431 +07 [1540] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
